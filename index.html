@@ -1,13 +1,142 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
-	<h1>Hello world!</h1>
-	<strong>My name is Pavel</strong>
-	
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Document</title>
+	</head>
+	<body>
+		<h1>Hello world! My name is Pavel</h1>
+		<strong id="text">Оформлений текст</strong>
+		<br>
+		<span>
+			Для будь-якого натурального числа<b> n&gt;2 </b>рівняння <i>a<sup>n</sup>+b<sup>n</sup> =c<sup>n</sup></i><b> не має рішень </b>при цілих ненульових числах a, b, c.
+		</span>
+		<br><br>
+		<strong id="list">Структура університету</strong>
+		<ul>
+			<li>Факультет компʼютерних наук
+				<ol>
+					<li>ІУС</li>
+					<li>ШІ</li>
+					<li>ПІ</li>
+					<li>КМІТ</li>
+				</ol>
+			</li>
+			<li>Факультет компʼютерної інженерії та інформаційних технологій
+				<ol>
+					<li>ЕОМ</li>
+					<li>АПОТ</li>
+					<li>ІСТ</li>
+					<li>Укр</li>
+				</ol>
+			</li>
+			<li>Факультет автоматизації компʼютерно-інтегрованих технологій та систем
+				<ol>
+					<li>КІТАРБІ</li>
+					<li>ПЕЕА</li>
+					<li>Кафедра фізики</li>
+					<li>МСТ</li>
+				</ol>
+			</li>
+			<li>Факультет інформаційно-аналітичних технологій та менеджменту
+				<ol>
+					<li>ІНФ</li>
+					<li>ПМ</li>
+					<li>ЕК</li>
+					<li>СГН</li>
+				</ol>
+			</li>
+			<li>Факультет кібербезпеки
+				<ol>
+					<li>ІКІ</li>
+					<li>ІМІ</li>
+					<li>БІТ</li>
+					<li>ІВТ</li>
+					<li>ННЛМС</li>
+				</ol>
+			</li>
+			<li>Факультет інформаційних радіотехнологій і медіаінженерії
+				<ol>
+					<li>МІРЕС</li>
+					<li>ІРТЗІ</li>
+					<li>МЕЕПП</li>
+					<li>Кафедра іноземних мов</li>
+					<li>ННЛ СТЗІ</li>
+				</ol>
+			</li>
+			<li>Навчально-науковий інститут лазерної та біомедичної інженерії
+				<ol>
+					<li>БМІ</li>
+					<li>ФОЕТ</li>
+					<li>ФВС</li>
+					<li>ННЛ ОЕЛТ</li>
+					<li>ННЛ БСН</li>
+				</ol>
+			</li>
+		</ul>
+		<strong>Таблиця з даними курсу валют</strong>
+		<table border id="table">
+			<thead>
+				<tr>
+					<th>Валюта</th>
+					<th>Код</th>
+					<th>Курс до гривні (UAH)</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Долар США</td>
+					<td>USD</td>
+					<td>44.91</td>
+				</tr>
+				<tr>
+					<td>Євро</td>
+					<td>EUR</td>
+					<td>50.34</td>
+				</tr>
+				<tr>
+					<td>Польський злотий</td>
+					<td>PLN</td>
+					<td>11.47</td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+		<strong>Форма голосування</strong>
+		<form id="form">
+			<fieldset>
+				<span>Яка твоя улюблена мова програмування?</span>
+				<div>
+					<input type="radio" id="javascript" name="language">
+					<label for="javascript">JavaScript</label>
+				</div>
+				<div>
+					<input type="radio" id="python" name="language">
+					<label for="python">Python</label>
+				</div>
+				<div>
+					<input type="radio" id="java" name="language">
+					<label for="java">Java</label>
+				</div>
+				<div>
+					<input type="radio" id="cpp" name="language">
+					<label for="cpp">C++</label>
+				</div>
+				<div>
+					<input type="text" id="other" placeholder="Інше">
+				</div>
+			<br>
+			<button type="submit">Проголосувати</button>
+			</fieldset>
+		</form>
+		<strong>Посилання</strong>
+		<a href="#text">Оформлений текст</a>
+		<a href="#list">Структура університету</a>
+		<a href="#table">Таблиця</a>
+		<a href="#form">Форма голосування</a>
+	</body>
 </html>
